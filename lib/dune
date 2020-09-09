@@ -1,5 +1,5 @@
 (library
- (public_name mullos)
+ (public_name diktor)
  (libraries base sedlex zarith camomile batteries menhirLib)
  (modules poly lexer parser elab syntax aux env location)
  (preprocess

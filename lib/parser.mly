@@ -5,7 +5,7 @@
 %parameter <Data : Syntax.Data>
 %{
 (* Workaround ocaml/dune#2450 *)
-module Mullos = struct end
+module Diktor = struct end
 
 open Syntax
 module Tree = Syntax.Make(Data)

@@ -1,14 +1,14 @@
 (executables
- (names mullos_compiler)
- (libraries mullos)
- (modules mullos_compiler)
+ (names diktor_compiler)
+ (libraries diktor)
+ (modules diktor_compiler)
  (preprocess
   (pps sedlex.ppx)))
 
 (install
  (section bin)
  (files
-  (mullos_compiler.exe as mullos-compiler)))
+  (diktor_compiler.exe as diktor-compiler)))
 
 (env
  (dev

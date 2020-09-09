@@ -1,12 +1,12 @@
 opam-version: "2.0"
-name: "mullos"
+name: "diktor"
 version: "dev"
-synopsis: "Mullos is an implementation of Orphos Programming Language"
+synopsis: "Diktor is an implementation of Orphos Programming Language frontend and IR interpreter, written in OCaml."
 maintainer: "tomoaki3478@res.ac"
 authors: ["Takezoe,Tomoaki"]
 homepage: "https://orphos.res.ac/"
-bug-reports: "https://github.com/orphos/orphos"
-dev-repo: "git+https://github.com/orphos/orphos.git"
+bug-reports: "https://github.com/orphos/diktor"
+dev-repo: "git+https://github.com/orphos/diktor.git"
 license: "Apache-2.0 WITH LLVM-exception"
 build: [
   ["dune" "build" "-p" name "-j" jobs]

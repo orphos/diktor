@@ -1,5 +1,6 @@
-# Mullos
-Mullos is an implementation of Orphos Programming Language, written in OCaml.
+# Diktor
+Diktor is an implementation of Orphos Programming Language frontend and IR interpreter, written in OCaml.
+The primary goal of Diktor is to facilitate the bootstrapping of self-hosted implementation(s) of Orphos. 
 
 # Building
 1. Install opam.
@@ -7,5 +8,4 @@ Mullos is an implementation of Orphos Programming Language, written in OCaml.
 3. Build mullos package (opam install . --locked).
 
 # Etymology
-From μύλλος (Acient Greek "red mullet"), phonologically influenced by ML (because Orphos is a descendant of ML and written in Ocaml).
-
+The name Diktor comes from a character in Robert A. Heinlein's novel, _By His Bootstraps_, because Diktor's goal is to help bootstrap other implementations. 
